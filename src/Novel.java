@@ -3,13 +3,11 @@ public class Novel {
     private final String aTitle;
     private final String aAuthor;
     private final int aYear;
-    private final boolean aIsYA; // Special field for novels
 
-    public Novel(String pTitle, String pAuthor, int pYear, boolean pIsYA) {
+    public Novel(String pTitle, String pAuthor, int pYear) {
         aTitle = pTitle;
         aAuthor = pAuthor;
         aYear = pYear;
-        aIsYA = pIsYA;
     }
     public String getTitle() {
         return aTitle;
