@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        // Some books
+        // Some books to help with testing
         Book thePrincessBride = new Book("The Princess Bride", "William Goldman", 1943); // Novel
         Book aTreeGrowsInBrooklyn = new Book("A Tree Grows in Brooklyn", "Betty Smith", 1973); // Novel
         Book aLittlePrincess = new Book("A Little Princess", "Frances Hodgson Burnett", 1905); // Novel
